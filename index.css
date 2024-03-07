@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+   z-index: 0;
+}
+
+    
+  header{ 
+    width: 100%;
+    position:  fixed;
+    height: 350px   ;
+    top: 0px; 
+    left:0px;       
+    width: 100%;   
+    border: 4px solid black ;
+    background-color: black;
+    z-index: 15;
+
+
+}
+.navigation{
+    position:fixed;
+    top: 348px;
+    left:0px;   
+    background-color: black ;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+li{
+    border: 3px dotted antiquewhite;
+    background-color: olive ;
+    display: inline-block;  
+    font-size: 20px;
+    padding: 0px 10px;
+    text-align:left   
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    opacity: 0.8;
+    margin-top: -7px;
+}
+a{
+    background-color: olive;
+    color: antiquewhite;
+}
+a:hover{
+    background-color: antiquewhite;
+    color:black;
+}
+.intro{
+    position: relative;
+    top: 440px;
+
+    
+    text-align:center; 
+    border-bottom: 4px dotted olive; 
+ }  
+h2{
+    font-size :42px;
+    text-allign: right;
+
+}
+p{font-size: 24px;
+font-weight: bold;
+}
+
+.favourites{
+  position:relative;
+margin-top:500px;
+text-align:center;
+border-bottom: 4px dotted olive;
+    
+}
+.logos{
+    height:100px;
+    width: 300px;
+}
+
+h3{
+    font-size: 36px;
+    text-align: center;
+}
+.brandy{
+   display:inline-block;
+   border-bottom: 4px dotted olive;
+}
+main{
+    z-index:0;
+}
+#brandym{
+    float:left;
+    margin: 15px;
+    width:350px;
+    height:500px;   
+    
+}   
+.urban{
+    display:inline-block;
+    border-bottom: 4px dotted olive;
+    
+}
+
+#urbano{float:right;
+margin:15px; 
+width: 350px;
+height:500px;   }
+    
+button{
+    background-color: black;
+    padding:10px;   
+}
+
+.handm{
+    display:inline-block;
+    border-bottom: 4px dotted olive;
+}
+
+#handm1{
+    float:left;
+    margin:15px;
+    width:350px;
+    height: 500px;
+
+}
+
+.new{
+    display:inline-block
+}
+#new1{
+    float: right;
+    margin:15px;
+    width:350px;
+    height:500px;
+}
+footer{background-color: black;
+    color: white;
+    position:fixed;
+    bottom: 0px;
+    display:inline-block: 
+    height:8px;
+    width:100%;  
+    left:0px;
+    text-align:center;
+    
+}
+span{
+    padding-left:25px;
+}
